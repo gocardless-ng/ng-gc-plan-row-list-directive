@@ -4,8 +4,8 @@ angular.module('gc.planRowList', [
   'gc.planRowListController',
   'gc.planRow',
   'plan-row-list-template.html'
-]).directive('planRowList',
-  [function planRowDirective() {
+]).directive('planRowList', [
+  function planRowDirective() {
 
     return {
       restrict: 'E',
@@ -18,4 +18,5 @@ angular.module('gc.planRowList', [
       replace: true
     };
 
-  }]);
+  }
+]);
